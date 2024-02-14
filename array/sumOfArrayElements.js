@@ -1,9 +1,8 @@
 // sum of all elements in an array
-const myarr = [1,2,3,4,5]
-sum = 0
+const myarr = [1, 2, 3, 4, 5];
+sum = 0;
 
 for (let index = 0; index < myarr.length; index++) {
-     sum += myarr[index];
-    
+  sum += myarr[index];
 }
-console.log(sum)
+console.log(sum);
